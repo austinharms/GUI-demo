@@ -55,6 +55,12 @@ public class Label extends Actor
      *           variable, the TRANSPARENT constant, and the lineColor
      *           variables as parameters
      */
+    /**
+     * updateImage updates the image for the lable
+     * 
+     * @param there are no paramitors
+     * @return nothing is returned
+     */
     private void updateImage()
     {
         setImage(new GreenfootImage(value, fontSize, fillColor, TRANSPARENT, lineColor));
@@ -67,6 +73,12 @@ public class Label extends Actor
      * 
      * TODO (13): After the line of code changing the value of the value variable, make a call 
      *            to the updateImage method
+     */
+    /**
+     * setValue sets the labels text to the text paramitor
+     * 
+     * @param a string used to set the text of the lable
+     * @return nothing is returned
      */
     public void setValue(String text)
     {
@@ -82,6 +94,12 @@ public class Label extends Actor
      * TODO (16): After the line of code changing the value of the lineColor variable, make a call 
      *            to the updateImage method
      */
+    /**
+     * setLineColor sets the labels color to the color paramitor
+     * 
+     * @param a color used to set the color of the lable
+     * @return nothing is returned
+     */
     public void setLineColor(Color color)
     {
         lineColor = color;
@@ -95,6 +113,12 @@ public class Label extends Actor
      * 
      * TODO (19): After the line of code changing the value of the fillColor variable, make a call 
      *            to the updateImage method
+     */
+    /**
+     * setFillColor sets the labels color to the color paramitor
+     * 
+     * @param a color used to set the color of the lable
+     * @return nothing is returned
      */
     public void setFillColor(Color color)
     {

@@ -72,6 +72,12 @@ public class TextBox extends Actor
      *              
      *              //Get the image and draw a rectangle on the image starting at (0,0) and going to (getImage().getWidth()-1, getImage().getHeight()-1) 
      */
+    /**
+     * display displays the text box image
+     * 
+     * @param there are no paramitors
+     * @return nothing is returned
+     */
     private void display()
     {
         setImage( new GreenfootImage(value, fontSize, forground, background));
@@ -89,6 +95,12 @@ public class TextBox extends Actor
      * TODO (38): Inside the method, change the value of the value variable to the message parameter
      * 
      * TODO (39): Underneath the line changing the value variable, make a method call to the display method
+     */
+    /**
+     * setText sets the text of the box to the message paramitor
+     * 
+     * @param there is a string used to set the text
+     * @return nothing is returned
      */
     public void setText(String message)
     {

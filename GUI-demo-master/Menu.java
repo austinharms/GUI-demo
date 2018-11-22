@@ -159,6 +159,13 @@ public class Menu extends Actor
      *              
      *              //Remove the menuItems object
      */
+    /**
+     * handleMouse runs the proper execute command based on whare the mouse is
+     * clicked on the menu
+     * 
+     * @param there are no paramitors
+     * @return nothkng is returned
+     */
     private void handleMouse()
     {
         MouseInfo mouse; 
